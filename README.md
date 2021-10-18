@@ -1,6 +1,8 @@
 # Instructions
 # 'ParserAndIndex' -> 'Querier' -> 'trec_eval'
+# Commands are listed below to assist in building and running of my code.
 
+0. cd IR_P1 (enter project 1 directory)
 1. cd ParseAndIndex/   (enter indexer directory)
 2. mvn package  (build JAR with maven)
 3. java -jar target/Project1-1.0.jar ../cran/cran.all.1400  (run jar of indexer)
